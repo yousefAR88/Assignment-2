@@ -17,6 +17,8 @@ AFRAME.registerComponent('remove-component', {
     deleteMyself : function() {
         const Context_AF = this;
         Context_AF.el.parentNode.removeChild(Context_AF.el); 
-        //note memmory may stay aroudn until "garbage collected" so consider pooling instead of deleting. See note in create-cow element
+     
+
+     
     }
 });
